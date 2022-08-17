@@ -1,12 +1,17 @@
-*{
-    font-size: 62.5%;
-}
-html{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Zen+Antique&display=swap");
+
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-body{
+
+html {
+    font-size: 112.5%;
+}
+
+body {
+    font-family: "Zen Antique", serif;
     font-size: 1.8rem;
-}
-nav{
-    font-size: 2rem;
+    background-color: #e8e8e4;
 }
