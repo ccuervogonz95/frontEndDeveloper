@@ -7,3 +7,10 @@
     --dark: #232830;
 }
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+body{
+    font-size: 62.5%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
