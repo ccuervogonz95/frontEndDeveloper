@@ -1,9 +1,9 @@
 :root {
-    --very-light-pink: #C7C7C7;
+    --very-light-pink: #323F57;
     --white: #FFFFFF;
     --text-input-field: #F7F7F7;
     --black: #000000;
-    --hospital-green: #ACD9B2;
+    --hospital-green: #E7C586;
     --dark: #232830;
     --sm: 16px;
     --md: 18px;
@@ -13,6 +13,7 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 .login{
     width: 100%;
@@ -44,9 +45,40 @@ body {
     margin-top: 0;
     margin-bottom: 32px;
 }
+.form{
+    display: grid;
+}
 .label{
     font-size: var(--sm);
+    margin-bottom: 16px;
+    font-weight: bold;
+    margin-top: 8px;
 }
-/*.primary-button{
-
-}*/
+.input{
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 28px;
+    font-size: var(--md);
+    padding: 8px; 
+}
+.primary-button{
+    font-family: 'Quicksand',
+        sans-serif;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    background-color: var(--hospital-green);
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    height: 56px;
+    font-size: var(--md);
+    color: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+}
+@media (max-width: 640px) {
+    .logo{
+        display: block;
+    }
+}
