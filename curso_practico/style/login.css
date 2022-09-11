@@ -58,6 +58,7 @@ body {
     border-radius: 8px;
     height: 28px;
     font-size: var(--md);
+    text-align: center;
     padding: 8px; 
 }
 .primary-button{
