@@ -13,7 +13,7 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    background-image: linear-gradient(to left top, #eaeeff, #e3f4ff, #e1f8fd, #e5fbf7, #effdf1);
+    background-image: linear-gradient(to right bottom, #eaeeff, #e7f0ff, #e4f2ff, #e2f4ff, #e1f6ff, #e1f8fe, #e1f9fc, #e2fafa, #e4fbf8, #e7fcf5, #ebfdf3, #effdf1);
 }
 
 .login {
