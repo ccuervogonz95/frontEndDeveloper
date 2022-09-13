@@ -54,9 +54,9 @@ body {
 
 .label {
     font-size: var(--md);
-    margin-bottom: 16px;
+    margin-bottom: 4px;
     font-weight: bold;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 .input {
@@ -66,7 +66,7 @@ body {
     height: 24px;
     font-size: var(--sm);
     text-align: center;
-    padding: 8px;
+    padding: 4px;
     font-family: 'Quicksand',
         sans-serif;
 }
