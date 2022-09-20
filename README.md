@@ -1,4 +1,4 @@
-# CURSO DE FRONTEND DEVELOPER
+# FRONTEND DEVELOPER
 
 La repo contiene los ejercicios practicos realizados durante el curso de Forntend developer.
 
